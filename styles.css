@@ -1,0 +1,114 @@
+body{
+    background-color: green;
+    color: saddlebrown;
+    font-family: 'Assistant', sans-serif;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: #D7DF01;
+    text-align: center;
+    text-shadow: 2px 2px saddlebrown;
+}
+
+h5{
+    background-color: #D7DF01;
+    text-align: left;
+    border-radius: 4px;
+    width: 225px;
+    padding: 5px;
+}
+
+p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D7DF01;
+    text-align: center;
+    border-radius: 3px;
+    width: 500px;
+    padding: 15px;
+}
+
+img{
+    display: block;
+    height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px solid saddlebrown;
+    border-radius: 6px;
+}
+
+#awards{
+    margin-left: 45%;
+    margin-right: auto;
+    width: 500px;
+}
+
+#giannisMVP{
+    margin-left: 150px;
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+    background-color: slategrey;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    margin: 2px;
+}
+
+li{
+    padding: 4px;
+    margin: 1px;
+}
+
+li:nth-child(even){
+    background-color: white;
+    color: slategrey;
+}
+
+
+
+#stats{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: slategrey;
+    color: white;
+    text-align: center;
+    width: 400px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius: 3px;
+}
+
+td {
+    width: 100px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: white;
+    color: slategrey;
+}
+
+h3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D7DF01;
+    text-align: center;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.links{
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+}
